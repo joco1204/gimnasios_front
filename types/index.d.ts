@@ -1,7 +1,8 @@
 export {}
 
 declare global {
-    interface HTMLMediaElement {
-      srcObject: MediaProvider | null
-    }
+  interface HTMLMediaElement {
+    srcObject: MediaProvider | null
+  }
+  
 }
